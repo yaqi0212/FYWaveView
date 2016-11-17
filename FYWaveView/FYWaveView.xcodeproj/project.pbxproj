@@ -455,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEVELOPMENT_TEAM = 8VZFY5J7D9;
 				INFOPLIST_FILE = FYWaveView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -532,6 +533,7 @@
 				A119754A1DDD4A5C006118C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A119754B1DDD4A5C006118C2 /* Build configuration list for PBXNativeTarget "FYWaveViewTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +542,7 @@
 				A119754D1DDD4A5C006118C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A119754E1DDD4A5C006118C2 /* Build configuration list for PBXNativeTarget "FYWaveViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +551,7 @@
 				A11975501DDD4A5C006118C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
